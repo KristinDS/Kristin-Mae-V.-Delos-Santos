@@ -1,0 +1,110 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: sticky;
+    top: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    box-shadow: 0 2px 4px rgb(0, 0, 0, 0.1);
+    background-color: lightsalmon;
+    width: 100%;
+    overflow: hidden;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    margin-right: 10px;
+}
+
+.brand-logo{
+    margin-left: 10px;
+    font-size: 1.3em;
+}
+
+nav a{
+    padding: 8px;
+}
+
+nav a:link, nav a:visited, nav a:active{
+    color: black;
+    text-decoration: none;
+}
+.Wcback{
+    font-size: 25px;
+}
+
+.banner2{
+    padding-left: 30px;
+}
+.lasttext{
+   padding-left: 50px;
+
+}
+
+.user{
+    padding-left: 30px;
+}
+.password{
+    padding-left: 30px;
+}
+
+.footers{
+    text-align: center;
+    background-color: lightsalmon;
+    height: 85px;
+    margin-top: 105px;
+    width: 1349px;
+}
+
+h2 .header{
+    margin-right: 1000px;
+}
+
+
+section.banner2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    box-shadow: 0 2px 4px rgb(0, 0, 0, 0.1);
+    background-color: #fff;
+    width: 100%;
+    overflow: hidden;
+}
+.images{
+    height: 550px;
+    width: 780px;
+    float: right;
+    padding-top: 45px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+a h2 {
+    margin-right: 10px;
+}
+form{
+    border-right: solid;
+    width: 500px;
+    height: 360px;   
+}
+.password h2 .forgotpass{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 79px;
+}
+
+
+
